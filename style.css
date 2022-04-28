@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+
+@font-face {
+  font-family: norseBold;
+  src: url('./fonts/Norse-Bold.otf');
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 100%;
+}
+
+.logo-container {
+  background-image: url('./images/leaf.jpg');
+  background-position: center;
+  background-size: cover;
+  height: 100%;
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+#odin-logo {
+  height: 80%;
+}
+
+.logo {
+  margin-top: 40%;
+  background-color: rgba(0.1, 0.1, 0.1, 0.5);
+  height: 15%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: norseBold;
+  font-size: xx-large;
+  color: #fff;
+  cursor: default;
+}
+
+.credits {
+  text-align: center;
+  color: #fff;
+  font-family: sans-serif;
+  font-size: small;
+  margin-bottom: 3%;
+  font-weight: bold;
+}
+
+.credits a {
+  color: #fff;
+}
+
+:root {
+  --greyish: rgb(245, 245, 245);
+}
+
+.form-container {
+  background-color: blue;
+  height: 100%;
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+}
+
+.form-info {
+  background-color: var(--greyish);
+  flex: 1.2 1 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.input-group {
+  background-color: white;
+  flex: 1.2 1 0;
+}
+
+.submit-section {
+  background-color: var(--greyish);
+  flex: 1 1 0;
+}
+.para-1,
+.para-2 {
+  color: rgb(32, 30, 30);
+  font-family: 'Roboto', sans-serif;
+  font-size: x-large;
+  margin-left: 60px;
+  cursor: default;
+}
+
+.input-group {
+  display: flex;
+  flex-direction: column;
+}
